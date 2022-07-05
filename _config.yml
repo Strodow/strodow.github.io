@@ -38,7 +38,7 @@ keywords:              [video production, production house, filming studio, mark
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
 # It also used by the `jekyll-seo-tag` plugin.
-logo:                  /assets/img/Logo White.svg
+logo:                  /assets/img/Logo_Wide_White.svg
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
@@ -50,14 +50,16 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
+  #- title:             Blog
+  #  url:               /blog/
   - title:             Projects
     url:               /projects/
-  - title:             Résumé*
-    url:               /resume/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Contact
+    url:               /contact
+  #- title:             Résumé*
+  #  url:               /resume/
+  #- title:             Documentation
+  #  url:               /docs/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -66,8 +68,6 @@ legal:
     url:               /LICENSE/
   - title:             NOTICE
     url:               /NOTICE/
-  - title:             CHANGELOG
-    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             © 2022. All rights reserved.
@@ -174,7 +174,7 @@ kramdown:
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-# google_analytics:      UA-XXXXXXXX-X
+google_analytics:      UA-115639859-1
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
