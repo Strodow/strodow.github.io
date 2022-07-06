@@ -5,7 +5,6 @@ sitemap: true
 ---
 
 
-
 <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSdNTAHXa6ilBEjjNHoxX6QFi35j6pzsvnozPM8qy9rqsjTKsg/formResponse?" target="hidden_iframe" onsubmit="submitted=true;">
     <div class="form-row">
         <div class="form-group col-md-6">
@@ -30,8 +29,21 @@ sitemap: true
         </div>
     </div>
     <input class="btn btn-primary" type="submit" value="submit">
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6Led6cMgAAAAAARHwmzrzrBZJnCa136gJXE-wpyH"></script>
+    <script>
+    grecaptcha.enterprise.ready(function() {
+        grecaptcha.enterprise.execute('6Led6cMgAAAAAARHwmzrzrBZJnCa136gJXE-wpyH', {action: 'login'}).then(function(token) {
+        ...
+        });
+    });
+    </script>
 </form>
 <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
+
+
+
+
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript">var submitted=false;</script>
